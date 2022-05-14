@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curewell</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cw.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/2864e97a0a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="top-section">
+            <img src="logo.png" alt="curewell logo" class="logo">
+            <ul class="header-options">
+                <li class="list">
+                    <a href="@medicines" style="color: rgb(247, 54, 0);">MEDICINES</a>
+                </li>
+                <li class="list">
+                    <a href="@lab tests">LAB TESTS</a>
+                </li>
+                <li class="list">
+                    <a href="@ask doctor">ASK DOCTOR</a>
+                </li>
+                <li class="list">
+                    <a href="covid-19">COVID-19</a>
+                </li>
+                <li class="list">
+                    <a href="ayurveda">AYURVEDA</a>
+                </li>
+                <li class="list">
+                    <a href="@care plan">CARE PLAN</a>
+                </li>
+            </ul>
+            <section class="registration">
+                <a href="signup/login.html" class="signup">Sign Up</a>
+                <a href="signup/login.html" class="login">Login</a>
+                <a href="@offers" class="offers">Offers</a>
+            </section>
+            <a href="@no data" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            <p class="help-center">Need Help?</p>
+        </div>
+        <div class="cart-modal">
+            <section class="upper-section">
+                <p>Order Summary</p>
+                <p class="items">0 Item</p>
+            </section>
+            <p class="cart-heading">PROCEED TO CART</p>
+        </div>
+        <div class="middle-section">
+            <form class="location-bar-container">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" name="location-bar" class="location-bar" placeholder="Select location">
+                <button class="gps-btn">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                </button>
+            </form>
+            <form class="search-bar-container">
+                <input type="text" name="search" class="search-bar"
+                    placeholder="Search for Medicines and Health Products">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            
+            <a href="#" class="upload-btn">
+                <span>Upload</span>
+            </a>
+        </div>
+        <div class="bottom-section">
+            <ul class="bottom-list">
+                <li class="has-dropdown">
+                    <a href="@empty yet" class="dropdown-links">Personal Care</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="@empty">Skin Care</a></li>
+                        <li><a href="@empty">Baby Care</a></li>
+                        <li><a href="@empty">Men Care</a></li>
+                        <li><a href="@empty">Women Care</a></li>
+                        <li><a href="@empty">Elderly Care</a></li>
+                        <li><a href="@empty">Hair Care</a></li>
+                        <li><a href="@empty">Pet Care</a></li>
+                        <li><a href="@empty">Sexual Wellness</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="@empty yet" class="dropdown-links">Covid Essentials</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="@empty">Sanitizers & HandWash</a></li>
+                        <li><a href="@empty">Masks</a></li>
+                        <li><a href="@empty">COVID-19 Test Kits</a></li>
+                        <li><a href="@empty">Immunity Boosters</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="@empty yet" class="dropdown-links">Featured</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="@empty">CureWell Assured Products</a></li>
+                        <li><a href="@empty">Deals Of The Day</a></li>
+                        <li><a href="@empty">Upcoming Products</a></li>
+                        <li><a href="@empty">Summer Essentials</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="@empty yet" class="dropdown-links">Vitamins & Nutrition</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="@empty">Nutritional Drinks</a></li>
+                        <li><a href="@empty">Protein Suppliments</a></li>
+                        <li><a href="@empty">Health Food & Drinks</a></li>
+                        <li><a href="@empty">Omega & Fish Oils</a></li>
+                        <li><a href="@empty">Specialty Suppliments</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="@empty yet" class="dropdown-links">Diabetes</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="@empty">Devices</a></li>
+                        <li><a href="@empty">Diabetic Medicines</a></li>
+                        <li><a href="@empty">Diabetic Diet</a></li>
+                        <li><a href="@empty">Sugar Substitutes</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="@empty yet" class="dropdown-links">Healthcare Devices</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="@empty">Oxygen Concentrators & Cans</a></li>
+                        <li><a href="@empty">BP Monitors</a></li>
+                        <li><a href="@empty">Nebulizers & Vaporizers</a></li>
+                        <li><a href="@empty">Oximeters & Pedometers</a></li>
+                        <li><a href="@empty">Weighing Scales</a></li>
+                        <li><a href="@empty">Mobility Equipments</a></li>
+                        <li><a href="@empty">Exercise Equipments</a></li>
+                        <li><a href="@empty">Supports & Braces</a></li>
+                        <li><a href="@empty">Vital Signs Monitors & Wearables</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="@empty yet" class="dropdown-links">Health Resource Center</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="@empty">All Diseases</a></li>
+                        <li><a href="@empty">All Medicines</a></li>
+                        <li><a href="@empty">Medicines By Therapeutic Class</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="@empty yet" class="dropdown-links">Health Conditions</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="@empty">First Aid</a></li>
+                        <li><a href="@empty">Cold & Cough</a></li>
+                        <li><a href="@empty">Mental Wellness</a></li>
+                        <li><a href="@empty">Derma Care</a></li>
+                        <li><a href="@empty">Smoking Cessation</a></li>
+                        <li><a href="@empty">Pain Relief</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </header><br>
+    <h3 align="center">Popular Brands</h3><br>
+    <!--cards starts from here-->
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="1.png" width="150" height="200">
+                <h3>SANOFI</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="2.png" width="150" height="200">
+                <h3>ABBOTT</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="3.png" width="150" height="200">
+                <h3>GlaxoSmithKline</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="4.png" width="150" height="200">
+                <h3>MSD</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="5.png" width="150" height="200">
+                <h3>pfizer</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="6.JPG" width="150" height="200">
+                <h3>SUN Pharma</h3>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--2nd line of cards starts from here-->
+    <h3 align="center">Shop By Category</h3><br>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="7.png" width="150" height="200">
+                <h3>Vitamins</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="8.png" width="150" height="200">
+                <h3>Ayurveda</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="9.png" width="150" height="200">
+                <h3>Healthcare Devices</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="10.PNG" width="150" height="200">
+                <h3>Fitness</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="12.JPG" width="150" height="200">
+                <h3>Skin Care Essentials</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="11.PNG" width="150" height="200">
+                <h3>Mens Grooming</h3>
+            </div>
+        </div>
+
+        <!--Product cards starts from here-->
+        <div class="product">
+            <img src="13.webp" style="width:100%">
+            <h2>TusQ DX Syrup</h2>
+            <p class="price">₹90</p>
+            <p>Blue Cross Laboratories Ltd</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+        <div class="product">
+            <img src="13.webp" style="width:100%">
+            <h2>TusQ DX Syrup</h2>
+            <p class="price">₹90</p>
+            <p>Blue Cross Laboratories Ltd</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <!--footer section starts from here-->
+<!-- <footer>
+   <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>CureWell is a consumer healthcare “super site” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.</p>
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+917447674556</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>rushi99215@gmail.com</a>
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+       <div class="topic">Categories</div>
+       <div><a href="#">Personal Care</a></div>
+       <div><a href="#">Health Food & Drinks</a></div>
+       <div><a href="#">Ayurvedic Care</a></div>
+       <div><a href="#">Surgicals & Dressings</a></div>
+       <div><a href="#">Diabetic Care</a></div>
+       <div><a href="#">Sexual Wellness</a></div>
+       <div><a href="#">Healthcare Devices</a></div>
+       <div><a href="#">Covid Essentials</a></div>
+       <div><a href="#">Mom & Baby Care</a></div>
+       <div><a href="#">Pet Care</a></div>
+     </div>
+     <div class="right box">
+       <div class="topic"><h3>Subscribe us</h3>
+    <h6>Get a free subscription to our health and fitness tip and stay tuned to our latest offers</h6>
+    </div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+         <div class="media-icons">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-youtube"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </form>
+     </div>
+   </div>
+   <div class="bottom">
+     <p>Copyright © 2020 <a href="#">CureWell</a> All rights reserved</p>
+   </div>
+ </footer>
+ -->
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
